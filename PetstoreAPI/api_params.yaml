@@ -10,7 +10,7 @@ environments:
       production:
         url: 'http://prod.wso2.com'
       sandbox:
-        url: 'http://run.mocky.io/v3/11c4d155-c74e-40e0-bf07-9ae2d1e4511d'
+        url: 'http://prod.wso2.com'
         
 deploy:
   import:
