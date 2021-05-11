@@ -5,9 +5,9 @@ pipeline {
             label 'master'
         }
     }
-    environment { 
-        PATH = "/root/apictl:$PATH"
-    }
+    // environment { 
+    //     PATH = "/root/apictl:$PATH"
+    // }
     options {
         buildDiscarder logRotator( 
                     daysToKeepStr: '16', 
