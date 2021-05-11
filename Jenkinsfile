@@ -6,7 +6,7 @@ pipeline {
         }
     }
     environment { 
-        PATH = "/Users/sanethmaduranga/Documents/SUPPORT/POC/2021/APIM_Training/LAB/live/apict:$PATH"
+        PATH="${PATH}:/Users/sanethmaduranga/Documents/SUPPORT/POC/2021/APIM_Training/LAB/live/apictl"
     }
     options {
         buildDiscarder logRotator( 
