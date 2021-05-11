@@ -5,9 +5,9 @@ pipeline {
             label 'master'
         }
     }
-    // environment { 
-    //     PATH = "/root/apictl:$PATH"
-    // }
+    environment { 
+        PATH = "/Users/sanethmaduranga/Documents/SUPPORT/POC/2021/APIM_Training/LAB/live/apict:$PATH"
+    }
     options {
         buildDiscarder logRotator( 
                     daysToKeepStr: '16', 
