@@ -4,7 +4,7 @@ environments:
       production:
         url: 'http://run.mocky.io/v3/b92e8d17-3b02-4e02-b10e-d0523484d49a'
       sandbox:
-        url: 'http://run.mocky.io/v3/b92e8d17-3b02-4e02-b10e-d0523484d49a'
+        url: 'http://dev.wso2.com'
   - name: prod
     endpoints:
       production:
