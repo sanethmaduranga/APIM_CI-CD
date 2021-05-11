@@ -1,13 +1,17 @@
 environments:
   - name: dev
     endpoints:
-      production: http://run.mocky.io/v3/b92e8d17-3b02-4e02-b10e-d0523484d49a
-      sandbox: http://run.mocky.io/v3/b92e8d17-3b02-4e02-b10e-d0523484d49a
+      production:
+        url: 'http://run.mocky.io/v3/b92e8d17-3b02-4e02-b10e-d0523484d49a'
+      sandbox:
+        url: 'http://run.mocky.io/v3/b92e8d17-3b02-4e02-b10e-d0523484d49a'
   - name: prod
     endpoints:
-      production: http://run.mocky.io/v3/11c4d155-c74e-40e0-bf07-9ae2d1e4511d
-      sandbox: http://run.mocky.io/v3/11c4d155-c74e-40e0-bf07-9ae2d1e4511d
-
+      production:
+        url: 'http://run.mocky.io/v3/11c4d155-c74e-40e0-bf07-9ae2d1e4511d'
+      sandbox:
+        url: 'http://run.mocky.io/v3/11c4d155-c74e-40e0-bf07-9ae2d1e4511d'
+        
 deploy:
   import:
     update: true
