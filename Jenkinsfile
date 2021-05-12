@@ -28,11 +28,11 @@ pipeline {
         //     }
         // }
 
-        stage('Deploy APIs To "prod" Environment') {
+        stage('Deploy APIs To "dev" Environment') {
             steps {
                 sh """
-                apictl login prod -u admin -p admin
-                apictl vcs deploy -e prod
+                apictl login dev -u admin -p admin
+                apictl vcs deploy -e dev
                 """
             }
         }
